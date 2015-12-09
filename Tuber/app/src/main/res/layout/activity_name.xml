@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/toolBar"
+    tools:context="com.example.zhangjiaheng.cupcares.FourthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/toolBar"
+        android:layout_height="22dp"/>
+
+    <include
+        android:id="@+id/register_bar"
+        layout="@layout/register_bar"/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    />
+    <EditText
+        android:id="@+id/text_name"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:hint="Enter your name"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:background="@drawable/save_button_selector"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+
+        <Button
+            android:text="Save"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:id="@+id/button_save"
+            android:background="@drawable/save_button_selector"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        />
+
+</LinearLayout>
+

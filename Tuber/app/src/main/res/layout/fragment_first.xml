@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e0e0e0"
+    tools:context="com.example.zhangjiaheng.cupcares.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    android:background="@color/toolBar"
+    android:gravity="center"
+    >
+
+<TextView
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:layout_width="140dp"
+    android:layout_height="60dp"
+    android:text="0"
+    android:textColor="@color/white"
+    android:gravity="center"
+    android:textSize="50sp"
+    />
+
+    <TextView
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Current Balance"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18sp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:gravity="center"
+            android:text="Add Record"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Clear Bill"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="Bill"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+
+            android:text="Bill"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+    </LinearLayout>
+
+</LinearLayout>

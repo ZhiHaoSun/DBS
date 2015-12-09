@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/toolBar"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/toolBar"
+        android:layout_height="22dp"/>
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/text_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Welcome"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+<LinearLayout
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+        <LinearLayout
+            android:id="@+id/register_name"
+android:clickable="true"
+            android:background="@drawable/linear_selector"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:text="Name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/info_name"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Your name"
+                />
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/right"
+                android:layout_width="35dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    <View
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/tabBarTop"
+        />
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/register_sex"
+
+            android:background="@drawable/linear_selector"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:text="Sex"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/info_sex"
+
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Male/Female"
+                />
+            <ImageView
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/right"
+                android:layout_width="35dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <View
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/tabBarTop"
+            />
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/register_age"
+
+            android:background="@drawable/linear_selector"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:text="Age"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/info_age"
+
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Your age"
+                />
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/right"
+                android:layout_width="35dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    <View
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/tabBarTop"
+        />
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/register_weight"
+
+            android:background="@drawable/linear_selector"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:text="Weight"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/info_weight"
+
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Your weight"
+                />
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/right"
+                android:layout_width="35dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    <View
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/tabBarTop"
+        />
+        <LinearLayout
+            android:id="@+id/register_target"
+
+            android:clickable="true"
+            android:background="@drawable/linear_selector"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:text="Target"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/info_target"
+
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Recommendation"
+                />
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/right"
+                android:layout_width="35dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+</LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        
+        <Button
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="SAVE"
+            android:background="@drawable/save_button_selector"
+            android:padding="0dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

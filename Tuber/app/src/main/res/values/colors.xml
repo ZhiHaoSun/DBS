@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="toolBar">#1976D2</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#FF3D00</color>
+
+    <color name="tabBar">#e0e0e0</color>
+    <color name="tabBarText">#BDBDBD</color>
+    <color name="tabBarTop">#BDBDBD</color>
+    <color name="black">#000000</color>
+    <color name="save_button">#42A5F5</color>
+    <color name="save_button_press">#1565C0</color>
+    <color name="water_button">#64B5F6</color>
+    <color name="water_button_press">#1565C0</color>
+    <color name="medicine_button">#4DD0E1</color>
+    <color name="medicine_button_press">#0097A7</color>
+    <color name="hbr_button">#CE93D8</color>
+    <color name="hbr_button_press">#7B1FA2</color>
+    <color name="message_button">#26A69A</color>
+    <color name="message_button_press">#00695C</color>
+    <color name="tab_bar_press">#2196F3</color>
+</resources>

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/toolBar"
+    tools:context="com.example.zhangjiaheng.cupcares.FourthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <EditText
+        android:id="@+id/text_message"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:hint="Leave a message"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button_clear"
+            android:text="Clear"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:background="@drawable/save_button_selector"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+
+        <Button
+            android:text="Send"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/save_button_selector"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cup"
+            />
+
+        </LinearLayout>
+</LinearLayout>

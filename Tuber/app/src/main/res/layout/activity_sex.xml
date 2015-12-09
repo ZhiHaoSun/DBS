@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/toolBar"
+    tools:context="com.example.zhangjiaheng.cupcares.FourthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/toolBar"
+        android:layout_height="22dp"/>
+
+    <include
+        android:id="@+id/sex_bar"
+        layout="@layout/register_bar"/>
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        >
+
+        <TextView
+            android:clickable="true"
+
+            android:text="Male"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/text_male"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/text_selector"
+            android:layout_height="45dp"
+            android:layout_width="match_parent"
+            android:textSize="22sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#e0e0e0"
+            android:paddingRight="10dp"
+            />
+        <TextView
+            android:text="Female"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:clickable="true"
+            android:id="@+id/text_female"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/text_selector"
+            android:layout_width="match_parent"
+            android:textSize="22sp"
+            android:layout_height="45dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        />
+
+</LinearLayout>
+

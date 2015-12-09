@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/toolBar"
+    tools:context="com.example.zhangjiaheng.cupcares.FourthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/toolBar"
+        android:layout_height="22dp"/>
+
+    <include
+        android:id="@+id/register_bar"
+        layout="@layout/register_bar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scan_container"
+        />
+
+
+</LinearLayout>
+
